@@ -1,0 +1,55 @@
+body {
+	font-family: arial;
+	margin-left: 130px;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+li{
+	line-height: 28px;
+}
+
+a {
+	color: #484848;
+	font-size: 15px;
+}
+
+.header {
+	background-color: #ff7212;
+	color: white;
+	padding-left: 20px;
+}
+
+.title-news {
+	font-size: 23px;
+}
+
+.date-news {
+	font-size: 10px;
+	padding-bottom: 15px;
+}
+
+.content{
+	color: #484848;
+	line-height: 30px;
+	margin-right: 350px;
+}
+
+.content img{
+	width: 600px;
+	margin-top: 30px;
+}
+
+.content figcaption {
+	color: black;
+	line-height: 0px; 
+	font-size: 12px;
+	padding-bottom: 15px;
+}
+
+.links{
+	margin-top: 60px;
+}
