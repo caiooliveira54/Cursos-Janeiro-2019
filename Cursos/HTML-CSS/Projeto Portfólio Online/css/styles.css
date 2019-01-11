@@ -1,0 +1,167 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #5E5E5E;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navigation {
+	color: #FCFAF9;
+	height: 50px;
+}
+
+.navigation ul{
+	margin-top: 0;
+	list-style: none;
+	padding-left: 0;
+	text-align: right;
+	height: 50px;
+}
+
+.navigation li {
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 50px;
+	font-size: 16px;
+}
+
+.kappa {
+	color: #FCFAF9;
+}
+
+.kappa span {
+	color: #48E5C2;
+	display: block;
+}
+
+.kappa div {
+	display: inline-block;
+	height: 650px;
+}
+
+.profile-pic {
+	width: 40%;
+	text-align: center;
+}
+
+.profile-pic img {
+	width: 300px;
+	border-radius: 300px;
+	margin-top: 100px; 
+}
+
+.profile-title {
+	vertical-align: top;
+	width: 59%;
+}
+
+.profile-title h1 {
+	font-size: 58px;
+	margin-top: 200px;
+}
+
+.profile-title h2 {
+	font-size: 16px;
+}
+
+.main {
+	padding: 80px 180px 80px 100px;
+}
+
+.pic {
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.main h1 {
+	color: #FCFAF9;
+	font-weight: normal;
+}
+
+.main h2 {
+	color: #FCFAF9;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 40px;
+}
+
+.main h3 {
+	color: #48E5C2;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.main p {
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 24px;
+	text-align: justify;
+}
+
+.path {
+	list-style: none;
+	padding-left: 0;
+	color: grey;
+}
+
+.path li {
+	display: inline-block;
+}
+
+.social-img {
+	width: 50px;
+	margin-right: 10;
+}
+
+.mini {
+	width: 320px;
+	height: 320px;
+	display: inline-block;
+	margin-right: 15px; 
+	margin-bottom: 15px;
+	background-size: contain;
+	overflow: hidden;
+}
+
+.mini a {
+	text-decoration: none;
+}
+
+.blackbox {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0;
+	padding-top: 120px;
+}
+
+.blackbox:hover {
+	opacity: 0.8;
+}
+
+.blackbox-text {
+	text-align: center;
+
+}
+
+.blackbox-text h1 {
+	font-size: 16px;
+	color: #48E5C2;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.blackbox-text h2 {
+	text-transform: none;
+	font-weight: 100;
+	margin-top: 0;
+}
