@@ -3,12 +3,12 @@ const webpack = require('webpack')
 module.exports = {
     entry: './ex/index.jsx',
     output: {
-        path: __dirname + 'public',
+        path: __dirname + '/public',
         filename: './bundle.js'
     },
     devServer: {
         port: 8080,
-        contentBse: './public',
+        contentBase: './public',
     },
     module: {
         loaders: [{

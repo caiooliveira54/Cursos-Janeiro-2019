@@ -1,7 +1,6 @@
 {
   "name": "exercicios_react",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --colors --inline --hot"
@@ -18,5 +17,6 @@
     "react-dom": "^15.4.2",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
-  }
+  },
+  "description": ""
 }
