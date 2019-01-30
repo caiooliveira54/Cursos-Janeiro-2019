@@ -1,6 +1,15 @@
 var message = "Hello World!";
 console.log(message);
 var episode = 4;
-console.log("This is episode " + episode);
+console.log("Este e o episodio " + episode);
 episode += 1;
-console.log("Next episode is" + episode);
+console.log("Proximo episodio e: " + episode);
+var morto = true;
+console.log("O cara morreu? " + morto);
+morto = false;
+console.log("O cara morreu? " + morto);
+var supremo;
+supremo = 12;
+console.log(supremo);
+supremo = '12';
+console.log(supremo);
