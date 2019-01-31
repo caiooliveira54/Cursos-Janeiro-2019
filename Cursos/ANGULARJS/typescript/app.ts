@@ -1,18 +1,15 @@
-let message: string = "Hello World!"
-console.log(message);
+import {Espaconave, NaveContainer} from './base-ships'
+import {MilleniumFalcon} from './starfighters'
 
-let episode: number = 4
-console.log("Este e o episodio " + episode)
-episode += 1;
-console.log("Proximo episodio e: " + episode)
+import * as _ from 'lodash'
+console.log(_.pad("Exemplos TypeScript", 40, "="))
 
-let morto: boolean = true
-console.log("O cara morreu? " + morto)
-morto = false
-console.log("O cara morreu? " + morto)
+let nave = new Espaconave('hyperdrive')
+nave.pularNoHiperespaco()
 
-let supremo
-supremo = 12
-console.log(supremo)
-supremo = '12'
-console.log(supremo)
+let falcon = new MilleniumFalcon()
+falcon.pularNoHiperespaco()
+
+let boaParaTrabalho = ( nave: NaveContainer ) => nave.cargoContainers > 2
+
+console.log(`A Falcon e boa para o trabalho? ${boaParaTrabalho ( falcon ) ? 'sim' : 'nao'}`)
