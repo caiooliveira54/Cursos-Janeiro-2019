@@ -1,5 +1,5 @@
-import {Espaconave, NaveContainer} from './base-ships'
-import {MilleniumFalcon} from './starfighters'
+import {Espaconave, NaveContainer} from './ships/base-ships'
+import {MilleniumFalcon} from './ships/starfighters'
 
 import * as _ from 'lodash'
 console.log(_.pad("Exemplos TypeScript", 40, "="))
