@@ -28,7 +28,7 @@ img{
 
 .logo-text{
     text-transform: uppercase;
-    background-color: #63c6ae;
+    background-color: #A80874;
     font-size: 24px;
     margin: 0;
     padding: 20px;
@@ -64,7 +64,7 @@ img{
     transition: .8s ease;
 }
 .header__nav a:hover {
-    color: #63c6ae;   
+    color: #A80874;   
 }
 .header__btnMenu{
     float: right;
@@ -171,12 +171,12 @@ img{
     
     background: linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat, 
                 linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat, 
-                url(../img/01.jpg);
+                url(../gif/teste.gif);
     background-size: 40px 40px, 40px 40px, cover;
 }
 
 .hero__title{
-    background-color: #63c6ae;
+    background-color: #A80874;
     color: white;
     font-size: 28px;
     font-weight: 600;
@@ -216,7 +216,7 @@ img{
     
 }
 .people-cards__card:hover{
-    outline: 5px solid #63c6ae;
+    outline: 5px solid #A80874;
     outline-offset: -5px;
 }
 .people-cards__card:hover .people-cards__avatar img{
@@ -224,7 +224,7 @@ img{
 }
 .people-cards__card:hover .people-cards__title,
 .people-cards__card:hover .people-cards__text{
-    color: #63c6ae;
+    color: #A80874;
 }
 
 .people-cards__image{
@@ -296,7 +296,7 @@ img{
 
 
 .last-articles__title{
-    background-color: #63c6ae;
+    background-color: #A80874;
     padding: 5px 0;
 }
 
@@ -338,9 +338,9 @@ img{
 
 
 .quote-container{
-    background-color: #63c6ae;
+    background-color: #A80874;
     padding: 50px 0;
-    border-bottom: 12px solid #48b9a1;
+    border-bottom: 12px solid #A80874;
 }
 
 .quote-slideshow h2{
